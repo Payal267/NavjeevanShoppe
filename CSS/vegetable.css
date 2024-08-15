@@ -1,0 +1,378 @@
+.body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.navbar{
+    background-color: rgb(172, 214, 172); 
+  height: 50px;
+    padding: 11px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;   
+}
+.navbar-icon{
+    height: 50px;
+}
+.navbar-brand-name1{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(3, 142, 3);
+    font-weight: bold;
+   margin-left: 3px;
+}.navbar-brand-name2{ 
+    font-size: 50px;
+    color:black;
+    font-weight: bold;
+   margin-right: 200px;
+}
+.navbar-menu-cobtainer{
+    margin-left: 400px;
+}
+.navbar-menu{
+font-size: 20px;
+padding: 10px 20px;
+font-weight: bold;
+margin-left: 20px;
+cursor: pointer;
+background-color: rgb(53, 123, 53);  
+border-radius: 20px;
+color: black;
+color: white;
+}
+.navbar-menu-cobtainer {
+text-decoration: none;
+cursor: pointer;
+}
+
+.navbar-menu-list{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    
+}
+/*front-img*/
+.card-container{
+    background-color: rgb(172, 194, 194);
+    height: 400px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border: solid 0.5px black   
+}
+.img-veg{
+    height: 400px;
+    width: 1200px;
+}
+.veg-offer{
+    display: flex;
+    flex-direction: row;
+   
+    justify-content: space-around;
+}
+/*vegetable sevices*/
+.vegetable-services{
+    background-color:#ccccb3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10PX;
+}
+.text-centre{
+    text-align: center;
+}
+.veg-ser-img{
+    height: 30px;
+    width: 30px;
+}
+/* ofeer of vegetable*/
+.offer-1{
+    margin: 10px;
+    right: 100px;
+}
+
+
+
+
+.vegetable-container{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    margin-right: 20%;
+    padding: 30px;
+  
+}
+.vegetable-card{
+border: 2px solid black;
+background-color: rgb(185, 196, 196);
+width: 150px;
+height: 200px;
+padding: 5px;
+margin: 25px;
+box-shadow:0 2px 4px black ;
+display: inline-block;
+position: relative;
+left: 100px;
+
+}
+.text-centre{
+text-align: center;
+
+
+}
+.img{
+   
+    height: 150px;
+   
+  
+}
+
+.veg-info{
+background-color:aqua;
+display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+.category{
+font-family:fantasy;
+font-size: 30px;
+margin-top:50px;
+margin-left: 30px;
+text-align: center;
+}
+
+ /*vegetable cards */   
+     
+   /* card container*/
+   .best-seller-container{
+    display:flex;
+    justify-content: space-between;
+}
+   .best-seller-card{
+    background-color:#fff;
+    height:400px;
+    
+    width: 300px;
+    margin: 10px;
+    border-radius:5px ;
+    box-shadow:5px 10px 15px rgb(89, 129, 89);
+}
+.best-seller-card:hover{
+
+    box-shadow: 0px 0px 10px  	#99ff33; 
+}
+
+.heart2{
+    position: relative;
+    left: 240px;
+    bottom: 50px;
+}
+
+.best-seller-card-img{
+    height: 120px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+.best-seller-card-img:hover{
+    border-radius: 10px;
+    filter: drop-shadow( 0px 0px 10px rgb(190, 206, 18));
+}
+
+.best-seller-title{
+    text-align: center;
+    margin-bottom:10px;
+}
+.discount1{
+    margin-left:8px;
+ 
+ width:55px;
+ padding: 3px;
+
+}
+
+.discount{
+ margin-left:8px;
+ background-color:red;
+ color: #090909;
+ width:55px;
+ padding: 3px;
+
+
+}
+
+.price{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+ }
+ .quntity{
+text-align: center;
+
+}
+
+.addtocard-btn{
+   display:block;
+   margin-left: auto;
+   margin-right: auto;
+   cursor: pointer;
+   color: black;
+   background-color: #fff;
+
+}
+.addtocard-btn:hover{
+    background-color: black;
+    border:none;
+    color:white;
+}
+
+
+.relative{
+  position:relative;
+  top:-410px;
+  right:-1200px;
+  cursor:pointer;
+}
+
+.relative:hover{
+    
+}
+
+.absolute{
+  position:absolute;
+
+
+}
+
+.addtocard-btn{
+    padding: 5px;
+    background-color: #bbcd17;
+    border:none;
+    border-radius: 5PX;
+    margin-top: 5px;
+    padding: 7px;
+    width:100px;
+}
+
+.discount-flex{
+    margin-top:40px;
+    width:1200px;
+    height: 400px;
+    margin-left: 70px;
+    margin-right: 45px;
+    border-radius: 20px;
+    background-color: #c2eec2;
+    border:none;
+}
+
+/*about */
+.description{
+text-align: center;
+}
+
+.header-title{
+font-size: 50px;
+color: #090909;
+
+}
+.header-description{
+font-size: 20px;
+color: black;
+}
+
+/*footer*/
+.footer-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: auto;
+    background-color: black;
+    height: 250px;
+}
+.footer-heading{
+    padding-top: 20px;
+    color: white;
+    font-size: 50px;
+}
+.footer-link{
+    padding-top: 20px;
+    color: white;
+}
+.footer-contact{
+    padding-top: 20px;
+    color: white;
+}
+.img-smi{
+    padding-top: 30px; 
+}
+.q-link {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.footer-email{
+    font-size: 20px;
+}
+.footer-no{
+    font-size: 20px;
+}
+
+
+@media only screen and (max-width:600px) {
+     
+    .card-container{
+        background-color: rgb(172, 194, 194);
+        height: 200px;
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        border: solid 0.5px black   
+    }
+
+    .img-veg{
+        height: 200px;
+        width: 500px;
+}
+.best-seller-container{
+    display:flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    
+}
+
+}
+
+@media only screen and (min-width:601px) and (max-width:768px){
+
+    
+    .card-container{
+        background-color: rgb(172, 194, 194);
+        height: 300px;
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        border: solid 0.5px black   
+    }
+
+    .img-veg{
+        height: 300px;
+        width: 600px;
+}
+.best-seller-container{
+    display:flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+    
+
+}
